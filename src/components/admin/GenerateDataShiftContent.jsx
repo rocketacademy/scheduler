@@ -102,16 +102,14 @@ const GenerateDataShiftContent = ({
       })
   });
 
-      console.log('holiday array', holidayArray);
   let bootcampDataArray = Object.keys(bootcampData).filter(date => !holidayArray.includes(date));
-      console.log('bootcamp data array', bootcampDataArray);
 
-      holidayArray.forEach((date) => {
-        if (date in bootcampData) {
-          delete bootcampData[date];
-        }
-      })
-      console.log('bootcamp data mod', bootcampData);
+  holidayArray.forEach((date) => {
+    if (date in bootcampData) {
+      delete bootcampData[date];
+    }
+  })
+  
   return (
     <>
       {/* renders batch schedule data file  */}

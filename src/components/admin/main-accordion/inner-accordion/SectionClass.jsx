@@ -14,6 +14,7 @@ function SectionClass({
   dayIndex,
   setDaysInBatchFile,
   setDaysInMainFile,
+  bootcampDataArray
 }) {
 
   // helper function that maps each element in section array to a new course day
@@ -53,7 +54,6 @@ function SectionClass({
     return bootcampData;
   };
 
-  let bootcampDataArray;
   const handleClassShift = (direction, dayIndex) => {
     // puts all the items in selected class in an array and deletes them from their original position
     const sectionArray = [];
@@ -127,6 +127,7 @@ function SectionClass({
                   classIndex={classIndex}
                   setDaysInBatchFile={setDaysInBatchFile}
                   setDaysInMainFile={setDaysInMainFile}
+                  bootcampDataArray={bootcampDataArray}
                 />
               );
             })}

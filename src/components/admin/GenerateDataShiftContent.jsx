@@ -5,6 +5,7 @@ import Button from "react-bootstrap/Button";
 import download from "../../download";
 import generateDataObject from "../../generateCourseDates";
 import { DateTime } from "luxon";
+import holidayData from "../../data/2021-sg-stat-holidays.json";
 
 // helper function for cpoying data to clipboard
 const copyToClipboard = (data) => {
@@ -38,6 +39,7 @@ const GenerateDataShiftContent = ({
   const [courseDate, setCourseDate] = useState("");
   // used in the close all functionality
   const [accordionKey, setAccordionKey] = useState(1234);
+
 
   // function that handles download of main data file after edits
   const handleDownloadMainClick = async () => {
@@ -93,6 +95,23 @@ const GenerateDataShiftContent = ({
     }
   }
   
+  const holidayArray = [];
+  Object.keys(holidayData).map((holiday) => {
+      Object.keys(holidayData[holiday]).map((date) => {
+        holidayArray.push(date);
+      })
+  });
+
+      console.log('holiday array', holidayArray);
+  let bootcampDataArray = Object.keys(bootcampData).filter(date => !holidayArray.includes(date));
+      console.log('bootcamp data array', bootcampDataArray);
+
+      holidayArray.forEach((date) => {
+        if (date in bootcampData) {
+          delete bootcampData[date];
+        }
+      })
+      console.log('bootcamp data mod', bootcampData);
   return (
     <>
       {/* renders batch schedule data file  */}
@@ -135,6 +154,7 @@ const GenerateDataShiftContent = ({
                     setAccordionKey={setAccordionKey}
                     setDaysInBatchFile={setDaysInBatchFile}
                     setDaysInMainFile={setDaysInMainFile}
+                    bootcampDataArray={bootcampDataArray}
                   />
                 </div>
                 </>

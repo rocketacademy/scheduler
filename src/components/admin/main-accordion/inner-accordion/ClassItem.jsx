@@ -31,20 +31,22 @@ const shiftOneDay = (
   classIndex, 
   section,
   setDaysInMainFile,
-  setDaysInBatchFile
+  setDaysInBatchFile,
+  bootcampDataArray
   ) => {
     console.log('inside shift function');
-      let bootcampDataArray;
+    console.log('direction', direction);
+    console.log('dayIndex', dayIndex);
       let target; 
+     
        if(bootcampData.constructor === Object) {
-         bootcampDataArray = Object.keys(bootcampData);
-         console.log('bootcamp data array', bootcampDataArray);
          if(direction === 'up') {
+           console.log('bootcamp data', bootcampData);
+           console.log('bootcamp data array', bootcampDataArray);
+
            target = bootcampData[bootcampDataArray[dayIndex - 1]].courseDate;
          } else {
-           target = bootcampData[bootcampDataArray[dayIndex + 1]].courseDate;
-           console.log('target', target);
-           
+           target = bootcampData[bootcampDataArray[dayIndex + 1]].courseDate;           
          }
       } else {
         if (direction === 'up') {
@@ -91,7 +93,8 @@ function ClassItem({
   dayIndex,
   classIndex,
   setDaysInMainFile,
-  setDaysInBatchFile
+  setDaysInBatchFile,
+  bootcampDataArray
 }) {
   // toggle visibility of buttons
   const [modalShow, setModalShow] = useState(false);
@@ -105,8 +108,6 @@ function ClassItem({
   const handleShift = (direction, dayIndex, classIndex) => {
     // array that contains all the dates either before or after a selected date depending on direction chosen by user
     let datesArray = [];
-
-    
 
     // item is being moved backwards in the schedule
     if (direction === "any") {
@@ -139,7 +140,8 @@ function ClassItem({
         classIndex, 
         section,
         setDaysInMainFile,
-        setDaysInBatchFile
+        setDaysInBatchFile,
+        bootcampDataArray
      )
 
     } else if (direction === "up") {
@@ -152,7 +154,8 @@ function ClassItem({
         classIndex, 
         section,
         setDaysInMainFile,
-        setDaysInBatchFile
+        setDaysInBatchFile,
+        bootcampDataArray
      )
     } else {
       // here the item is being deleted from the schedule

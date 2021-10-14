@@ -32,7 +32,8 @@ const shiftOneDay = (
   section,
   setDaysInMainFile,
   setDaysInBatchFile,
-  bootcampDataArray
+  bootcampDataArray,
+  courseHolidays
   ) => {
     console.log('inside shift function');
     console.log('direction', direction);
@@ -94,7 +95,8 @@ function ClassItem({
   classIndex,
   setDaysInMainFile,
   setDaysInBatchFile,
-  bootcampDataArray
+  bootcampDataArray,
+  courseHolidays
 }) {
   // toggle visibility of buttons
   const [modalShow, setModalShow] = useState(false);
@@ -141,7 +143,8 @@ function ClassItem({
         section,
         setDaysInMainFile,
         setDaysInBatchFile,
-        bootcampDataArray
+        bootcampDataArray,
+        courseHolidays
      )
 
     } else if (direction === "up") {
@@ -155,7 +158,8 @@ function ClassItem({
         section,
         setDaysInMainFile,
         setDaysInBatchFile,
-        bootcampDataArray
+        bootcampDataArray,
+        courseHolidays
      )
     } else {
       // here the item is being deleted from the schedule

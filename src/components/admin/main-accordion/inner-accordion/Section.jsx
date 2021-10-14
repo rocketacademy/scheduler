@@ -11,7 +11,8 @@ function Section({
   bootcampData,
   setDaysInBatchFile,
   setDaysInMainFile,
-  bootcampDataArray
+  bootcampDataArray,
+  courseHolidays
 }) {
   // variable classExists is created to track if any class of a section exists (it is initially set to false)
   // if any class of a section exists, classExists is set to true
@@ -56,6 +57,7 @@ function Section({
                             setDaysInBatchFile={setDaysInBatchFile}
                             setDaysInMainFile={setDaysInMainFile}
                             bootcampDataArray={bootcampDataArray}
+                            courseHolidays={courseHolidays}
                           />
                         </div>
                       );

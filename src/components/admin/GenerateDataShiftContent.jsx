@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import AddItemModal from "./main-accordion/AddItemModal";
 import MainAccordion from "./main-accordion/MainAccordion";
 import Button from "react-bootstrap/Button";
@@ -39,7 +39,19 @@ const GenerateDataShiftContent = ({
   const [courseDate, setCourseDate] = useState("");
   // used in the close all functionality
   const [accordionKey, setAccordionKey] = useState(1234);
+  const [holidays, setHolidays] = useState();
 
+  useEffect(() => {
+    const courseHolidays = [];
+    holidayArray.forEach((date) => {
+      if (date in bootcampData) {
+        courseHolidays.push(bootcampData[date]);
+        delete bootcampData[date];
+      }
+    })
+    setHolidays(courseHolidays);
+    console.log('course holidays', courseHolidays);
+  }, [])
 
   // function that handles download of main data file after edits
   const handleDownloadMainClick = async () => {
@@ -104,11 +116,6 @@ const GenerateDataShiftContent = ({
 
   let bootcampDataArray = Object.keys(bootcampData).filter(date => !holidayArray.includes(date));
 
-  holidayArray.forEach((date) => {
-    if (date in bootcampData) {
-      delete bootcampData[date];
-    }
-  })
   
   return (
     <>
@@ -153,6 +160,7 @@ const GenerateDataShiftContent = ({
                     setDaysInBatchFile={setDaysInBatchFile}
                     setDaysInMainFile={setDaysInMainFile}
                     bootcampDataArray={bootcampDataArray}
+                    courseHolidays={courseHolidays}
                   />
                 </div>
                 </>

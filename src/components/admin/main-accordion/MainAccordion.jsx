@@ -15,7 +15,8 @@ function MainAccordion({
   accordionKey,
   setDaysInBatchFile,
   setDaysInMainFile,
-  bootcampDataArray
+  bootcampDataArray,
+  courseHolidays
 }) {
   
 
@@ -68,6 +69,7 @@ function MainAccordion({
                         setDaysInBatchFile={setDaysInBatchFile}
                         setDaysInMainFile={setDaysInMainFile}
                         bootcampDataArray={bootcampDataArray}
+                        courseHolidays={courseHolidays}
                       />
                     )
                   )}

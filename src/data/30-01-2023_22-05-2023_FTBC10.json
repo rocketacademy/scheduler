@@ -2565,16 +2565,82 @@
           "preClass": {
             "items": [
               {
-                "name": "3.1: Express.js",
+                "name": "3.1: Express.js (1) Http Revision - Fruit Express App",
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.1-express.js"
+              },
+              {
+                "name": "0.4.6.1: Async Await",
+                "url": "https://bootcamp.rocketacademy.co/0-foundations/0.4-javascript/0.4.6-promises/0.4.6.1-async-await"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "3.E.1: Bigfoot JSON",
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.e-exercises/3.e.1-bigfoot-json"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "3.E.1: Bigfoot JSON",
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.e-exercises/3.e.1-bigfoot-json"
+              }
+            ]
+          }
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "algos": {
+          "type": "algos",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        }
+      }
+    },
+    "28-03-2023": {
+      "courseDate": "28-03-2023",
+      "courseWeek": 9,
+      "weekDay": 2,
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2023-03-28T02:00:00.000Z",
+      "courseDay": 34,
+      "dateTypes": {
+        "module": "Module 3: Backend",
+        "general": {
+          "type": "general",
+          "preClass": {
+            "items": [
+              {
+                "name": "3.1: Express.js (2) Routes - Express Structure",
                 "url": "https://bootcamp.rocketacademy.co/3-backend/3.1-express.js"
               },
               {
                 "name": "0.5.3: Nodemon",
                 "url": "https://bootcamp.rocketacademy.co/0-foundations/0.5-node.js/0.5.3-nodemon"
-              },
-              {
-                "name": "0.4.6.1: Async Await",
-                "url": "https://bootcamp.rocketacademy.co/0-foundations/0.4-javascript/0.4.6-promises/0.4.6.1-async-await"
               }
             ]
           },
@@ -2646,13 +2712,13 @@
         }
       }
     },
-    "28-03-2023": {
-      "courseDate": "28-03-2023",
+    "29-03-2023": {
+      "courseDate": "29-03-2023",
       "courseWeek": 9,
-      "weekDay": 2,
-      "dayNumber": 2,
-      "meetingDateTimeUTC": "2023-03-28T02:00:00.000Z",
-      "courseDay": 34,
+      "weekDay": 3,
+      "dayNumber": 3,
+      "meetingDateTimeUTC": "2023-03-29T02:00:00.000Z",
+      "courseDay": 35,
       "dateTypes": {
         "module": "Module 3: Backend",
         "general": {
@@ -2660,12 +2726,19 @@
           "preClass": {
             "items": [
               {
-                "name": "3.2: SQL",
+                "name": "3.2: SQL (1) Introduction - SQL Relationships",
                 "url": "https://bootcamp.rocketacademy.co/3-backend/3.2-sql"
               }
             ]
           },
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "3.2: SQL (1) Introduction - SQL Relationships",
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.2-sql"
+              }
+            ]
+          },
           "postClass": {
             "items": [
               {
@@ -2684,106 +2757,8 @@
         "algos": {
           "type": "algos",
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "A.1.6: Trees - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.6-trees#part-2"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "A.1.6: Trees - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.6-trees#part-2"
-              }
-            ]
-          }
-        },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
-        "ip": {
-          "type": "ip",
-          "ipDue": {},
-          "preClass": {},
           "inClass": {},
           "postClass": {}
-        },
-        "projects": {
-          "type": "projects",
-          "projectStart": {},
-          "projectDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        }
-      }
-    },
-    "29-03-2023": {
-      "courseDate": "29-03-2023",
-      "courseWeek": 9,
-      "weekDay": 3,
-      "dayNumber": 3,
-      "meetingDateTimeUTC": "2023-03-29T02:00:00.000Z",
-      "courseDay": 35,
-      "dateTypes": {
-        "module": "Module 3: Backend",
-        "general": {
-          "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "3.3: Sequelize",
-                "url": "https://bootcamp.rocketacademy.co/3-backend/3.3-sequelize"
-              },
-              {
-                "name": "3.1.1: MVC",
-                "url": "https://bootcamp.rocketacademy.co/3-backend/3.1-express.js/3.1.1-mvc"
-              }
-            ]
-          },
-          "inClass": {
-            "items": [
-              {
-                "name": "3.E.2: Bigfoot SQL",
-                "url": "https://bootcamp.rocketacademy.co/3-backend/3.e-exercises/3.e.2-bigfoot-sql"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "3.E.2: Bigfoot SQL",
-                "url": "https://bootcamp.rocketacademy.co/3-backend/3.e-exercises/3.e.2-bigfoot-sql"
-              }
-            ]
-          }
-        },
-        "css": {
-          "type": "css",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "algos": {
-          "type": "algos",
-          "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "A.1.6: Trees - Part 3",
-                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.6-trees#part-3"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "A.1.6: Trees - Part 3",
-                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.6-trees#part-3"
-              }
-            ]
-          }
         },
         "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
@@ -2810,6 +2785,211 @@
       "dayNumber": 4,
       "meetingDateTimeUTC": "2023-03-30T02:00:00.000Z",
       "courseDay": 36,
+      "dateTypes": {
+        "module": "Module 3: Backend",
+        "general": {
+          "type": "general",
+          "preClass": {
+            "items": [
+              {
+                "name": "3.2: SQL (2) Postgres & Express",
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.2-sql/3.2.5-SQL-express"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "3.2: SQL (2) Postgres & Express",
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.2-sql/3.2.5-SQL-express"
+              }
+            ]
+          },
+          "postClass": {}
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "algos": {
+          "type": "algos",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        }
+      }
+    },
+    "03-04-2023": {
+      "courseDate": "03-04-2023",
+      "courseWeek": 10,
+      "weekDay": 1,
+      "dayNumber": 1,
+      "meetingDateTimeUTC": "2023-04-03T02:00:00.000Z",
+      "courseDay": 37,
+      "dateTypes": {
+        "module": "Module 3: Backend",
+        "general": {
+          "type": "general",
+          "preClass": {
+            "items": [
+              {
+                "name": "3.3: Sequelize (1) Introduction, Migrations and Seeders",
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.3-sequelize"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "3.E.2: Bigfoot SQL Setup",
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.e-exercises/3.e.2-bigfoot-sql"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "3.E.2: Bigfoot SQL",
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.e-exercises/3.e.2-bigfoot-sql"
+              }
+            ]
+          }
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "algos": {
+          "type": "algos",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "A.1.6: Trees - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.6-trees#part-2"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "A.1.6: Trees - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.6-trees#part-2"
+              }
+            ]
+          }
+        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        }
+      }
+    },
+    "04-04-2023": {
+      "courseDate": "04-04-2023",
+      "courseWeek": 10,
+      "weekDay": 2,
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2023-04-04T02:00:00.000Z",
+      "courseDay": 38,
+      "dateTypes": {
+        "module": "Module 3: Backend",
+        "general": {
+          "type": "general",
+          "preClass": {
+            "items": [
+              {
+                "name": "3.3: Sequelize (2) Models Instances Model Queries",
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.3-sequelize"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "3.E.2: Bigfoot SQL",
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.e-exercises/3.e.2-bigfoot-sql"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "3.E.2: Bigfoot SQL",
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.e-exercises/3.e.2-bigfoot-sql"
+              }
+            ]
+          }
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "algos": {
+          "type": "algos",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        }
+      }
+    },
+    "05-04-2023": {
+      "courseDate": "05-04-2023",
+      "courseWeek": 10,
+      "weekDay": 3,
+      "dayNumber": 3,
+      "meetingDateTimeUTC": "2023-04-05T02:00:00.000Z",
+      "courseDay": 39,
       "dateTypes": {
         "module": "Module 3: Backend",
         "general": {
@@ -2851,9 +3031,30 @@
         },
         "algos": {
           "type": "algos",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "preClass": {
+            "items": [
+              {
+                "name": "A.1.6: Trees - Part 3",
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.6-trees#part-3"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "A.1.6: Trees - Part 3",
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.6-trees#part-3"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "A.1.6: Trees - Part 3",
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.6-trees#part-3"
+              }
+            ]
+          }
         },
         "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
@@ -2887,13 +3088,13 @@
         }
       }
     },
-    "03-04-2023": {
-      "courseDate": "03-04-2023",
+    "06-04-2023": {
+      "courseDate": "06-04-2023",
       "courseWeek": 10,
-      "weekDay": 1,
-      "dayNumber": 1,
-      "meetingDateTimeUTC": "2023-04-03T02:00:00.000Z",
-      "courseDay": 37,
+      "weekDay": 4,
+      "dayNumber": 4,
+      "meetingDateTimeUTC": "2023-04-06T02:00:00.000Z",
+      "courseDay": 40,
       "dateTypes": {
         "module": "Module 3: Backend",
         "general": {
@@ -2964,13 +3165,13 @@
         }
       }
     },
-    "04-04-2023": {
-      "courseDate": "04-04-2023",
-      "courseWeek": 10,
-      "weekDay": 2,
-      "dayNumber": 2,
-      "meetingDateTimeUTC": "2023-04-04T02:00:00.000Z",
-      "courseDay": 38,
+    "10-04-2023": {
+      "courseDate": "10-04-2023",
+      "courseWeek": 11,
+      "weekDay": 1,
+      "dayNumber": 1,
+      "meetingDateTimeUTC": "2023-04-10T02:00:00.000Z",
+      "courseDay": 41,
       "dateTypes": {
         "module": "Module 3: Backend",
         "general": {
@@ -2980,6 +3181,10 @@
               {
                 "name": "3.2.3: SQL Schema Design",
                 "url": "https://bootcamp.rocketacademy.co/3-backend/3.2-sql/3.2.3-sql-schema-design"
+              },
+              {
+                "name": "3.3.4: Database Design",
+                "url": "https://bc.rocketacademy.co/3-backend/3.3-sequelize/3.3.4-database-design"
               }
             ]
           },
@@ -3041,13 +3246,86 @@
         }
       }
     },
-    "05-04-2023": {
-      "courseDate": "05-04-2023",
-      "courseWeek": 10,
+    "11-04-2023": {
+      "courseDate": "11-04-2023",
+      "courseWeek": 11,
+      "weekDay": 2,
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2023-04-11T02:00:00.000Z",
+      "courseDay": 42,
+      "dateTypes": {
+        "module": "Module 3: Backend",
+        "general": {
+          "type": "general",
+          "preClass": {
+            "items": [
+              {
+                "name": "3.1.1: MVC",
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.1-express.js/3.1.1-mvc"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "3.1.1: MVC Implementation",
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.1-express.js/3.1.1-mvc"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "3.1.1: MVC",
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.1-express.js/3.1.1-mvc#exercise"
+              }
+            ]
+          }
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "algos": {
+          "type": "algos",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 3 Ideation Phase 1",
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.p-full-stack-app-express"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "12-04-2023": {
+      "courseDate": "12-04-2023",
+      "courseWeek": 11,
       "weekDay": 3,
       "dayNumber": 3,
-      "meetingDateTimeUTC": "2023-04-05T02:00:00.000Z",
-      "courseDay": 39,
+      "meetingDateTimeUTC": "2023-04-12T02:00:00.000Z",
+      "courseDay": 43,
       "dateTypes": {
         "module": "Module 3: Backend",
         "general": {
@@ -3114,13 +3392,13 @@
         }
       }
     },
-    "06-04-2023": {
-      "courseDate": "06-04-2023",
-      "courseWeek": 10,
+    "13-04-2023": {
+      "courseDate": "13-04-2023",
+      "courseWeek": 11,
       "weekDay": 4,
       "dayNumber": 4,
-      "meetingDateTimeUTC": "2023-04-06T02:00:00.000Z",
-      "courseDay": 40,
+      "meetingDateTimeUTC": "2023-04-13T02:00:00.000Z",
+      "courseDay": 44,
       "dateTypes": {
         "module": "Module 3: Backend",
         "general": {
@@ -3212,13 +3490,13 @@
         }
       }
     },
-    "10-04-2023": {
-      "courseDate": "10-04-2023",
-      "courseWeek": 11,
+    "17-04-2023": {
+      "courseDate": "17-04-2023",
+      "courseWeek": 12,
       "weekDay": 1,
       "dayNumber": 1,
-      "meetingDateTimeUTC": "2023-04-10T02:00:00.000Z",
-      "courseDay": 41,
+      "meetingDateTimeUTC": "2023-04-17T02:00:00.000Z",
+      "courseDay": 45,
       "dateTypes": {
         "module": "Module 3: Backend",
         "general": {
@@ -3292,13 +3570,13 @@
         }
       }
     },
-    "11-04-2023": {
-      "courseDate": "11-04-2023",
-      "courseWeek": 11,
+    "18-04-2023": {
+      "courseDate": "18-04-2023",
+      "courseWeek": 12,
       "weekDay": 2,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2023-04-11T02:00:00.000Z",
-      "courseDay": 42,
+      "meetingDateTimeUTC": "2023-04-18T02:00:00.000Z",
+      "courseDay": 46,
       "dateTypes": {
         "module": "Module 3: Backend",
         "general": {
@@ -3365,13 +3643,13 @@
         }
       }
     },
-    "12-04-2023": {
-      "courseDate": "12-04-2023",
-      "courseWeek": 11,
+    "19-04-2023": {
+      "courseDate": "19-04-2023",
+      "courseWeek": 12,
       "weekDay": 3,
       "dayNumber": 3,
-      "meetingDateTimeUTC": "2023-04-12T02:00:00.000Z",
-      "courseDay": 43,
+      "meetingDateTimeUTC": "2023-04-19T02:00:00.000Z",
+      "courseDay": 47,
       "dateTypes": {
         "module": "Module 3: Backend",
         "general": {
@@ -3431,13 +3709,13 @@
         }
       }
     },
-    "13-04-2023": {
-      "courseDate": "13-04-2023",
-      "courseWeek": 11,
+    "20-04-2023": {
+      "courseDate": "20-04-2023",
+      "courseWeek": 12,
       "weekDay": 4,
       "dayNumber": 4,
-      "meetingDateTimeUTC": "2023-04-13T02:00:00.000Z",
-      "courseDay": 44,
+      "meetingDateTimeUTC": "2023-04-20T02:00:00.000Z",
+      "courseDay": 48,
       "dateTypes": {
         "module": "Module 3: Backend",
         "general": {
@@ -3490,13 +3768,13 @@
         }
       }
     },
-    "17-04-2023": {
-      "courseDate": "17-04-2023",
-      "courseWeek": 12,
+    "24-04-2023": {
+      "courseDate": "24-04-2023",
+      "courseWeek": 13,
       "weekDay": 1,
       "dayNumber": 1,
-      "meetingDateTimeUTC": "2023-04-17T02:00:00.000Z",
-      "courseDay": 45,
+      "meetingDateTimeUTC": "2023-04-24T02:00:00.000Z",
+      "courseDay": 49,
       "dateTypes": {
         "module": "Module 3: Backend",
         "general": {
@@ -3549,13 +3827,13 @@
         }
       }
     },
-    "18-04-2023": {
-      "courseDate": "18-04-2023",
-      "courseWeek": 12,
+    "25-04-2023": {
+      "courseDate": "25-04-2023",
+      "courseWeek": 13,
       "weekDay": 2,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2023-04-18T02:00:00.000Z",
-      "courseDay": 46,
+      "meetingDateTimeUTC": "2023-04-25T02:00:00.000Z",
+      "courseDay": 50,
       "dateTypes": {
         "module": "Module 3: Backend",
         "general": {
@@ -3615,13 +3893,13 @@
         }
       }
     },
-    "19-04-2023": {
-      "courseDate": "19-04-2023",
-      "courseWeek": 12,
+    "26-04-2023": {
+      "courseDate": "26-04-2023",
+      "courseWeek": 13,
       "weekDay": 3,
       "dayNumber": 3,
-      "meetingDateTimeUTC": "2023-04-19T02:00:00.000Z",
-      "courseDay": 47,
+      "meetingDateTimeUTC": "2023-04-26T02:00:00.000Z",
+      "courseDay": 51,
       "dateTypes": {
         "module": "Module 3: Backend",
         "general": {
@@ -3674,13 +3952,13 @@
         }
       }
     },
-    "20-04-2023": {
-      "courseDate": "20-04-2023",
-      "courseWeek": 12,
+    "27-04-2023": {
+      "courseDate": "27-04-2023",
+      "courseWeek": 13,
       "weekDay": 4,
       "dayNumber": 4,
-      "meetingDateTimeUTC": "2023-04-20T02:00:00.000Z",
-      "courseDay": 48,
+      "meetingDateTimeUTC": "2023-04-27T02:00:00.000Z",
+      "courseDay": 52,
       "dateTypes": {
         "module": "Module 3: Backend",
         "general": {
@@ -3740,13 +4018,25 @@
         }
       }
     },
-    "24-04-2023": {
-      "courseDate": "24-04-2023",
-      "courseWeek": 13,
-      "weekDay": 1,
+    "01-05-2023": {
+      "courseDay": null,
+      "courseDate": "01-05-2023",
+      "courseWeek": 14,
       "dayNumber": 1,
-      "meetingDateTimeUTC": "2023-04-24T02:00:00.000Z",
-      "courseDay": 49,
+      "dateTypes": {
+        "holidayType": "public holiday",
+        "date": "01-05-2023",
+        "location": "SG",
+        "name": "Labour Day"
+      }
+    },
+    "02-05-2023": {
+      "courseDate": "02-05-2023",
+      "courseWeek": 14,
+      "weekDay": 1,
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2023-05-02T02:00:00.000Z",
+      "courseDay": 53,
       "dateTypes": {
         "module": "Module 4: Capstone",
         "general": {
@@ -3834,13 +4124,13 @@
         }
       }
     },
-    "25-04-2023": {
-      "courseDate": "25-04-2023",
-      "courseWeek": 13,
+    "03-05-2023": {
+      "courseDate": "03-05-2023",
+      "courseWeek": 14,
       "weekDay": 2,
-      "dayNumber": 2,
-      "meetingDateTimeUTC": "2023-04-25T02:00:00.000Z",
-      "courseDay": 50,
+      "dayNumber": 3,
+      "meetingDateTimeUTC": "2023-05-03T02:00:00.000Z",
+      "courseDay": 54,
       "dateTypes": {
         "module": "Module 4: Capstone",
         "general": {
@@ -3914,13 +4204,13 @@
         }
       }
     },
-    "26-04-2023": {
-      "courseDate": "26-04-2023",
-      "courseWeek": 13,
+    "04-05-2023": {
+      "courseDate": "04-05-2023",
+      "courseWeek": 14,
       "weekDay": 3,
-      "dayNumber": 3,
-      "meetingDateTimeUTC": "2023-04-26T02:00:00.000Z",
-      "courseDay": 51,
+      "dayNumber": 4,
+      "meetingDateTimeUTC": "2023-05-04T02:00:00.000Z",
+      "courseDay": 55,
       "dateTypes": {
         "module": "Module 4: Capstone",
         "general": {
@@ -3994,13 +4284,13 @@
         }
       }
     },
-    "27-04-2023": {
-      "courseDate": "27-04-2023",
-      "courseWeek": 13,
-      "weekDay": 4,
-      "dayNumber": 4,
-      "meetingDateTimeUTC": "2023-04-27T02:00:00.000Z",
-      "courseDay": 52,
+    "08-05-2023": {
+      "courseDate": "08-05-2023",
+      "courseWeek": 15,
+      "weekDay": 1,
+      "dayNumber": 1,
+      "meetingDateTimeUTC": "2023-05-08T02:00:00.000Z",
+      "courseDay": 56,
       "dateTypes": {
         "module": "Module 4: Capstone",
         "general": {
@@ -4081,25 +4371,13 @@
         }
       }
     },
-    "01-05-2023": {
-      "courseDay": null,
-      "courseDate": "01-05-2023",
-      "courseWeek": 14,
-      "dayNumber": 1,
-      "dateTypes": {
-        "holidayType": "public holiday",
-        "date": "01-05-2023",
-        "location": "SG",
-        "name": "Labour Day"
-      }
-    },
-    "02-05-2023": {
-      "courseDate": "02-05-2023",
-      "courseWeek": 14,
-      "weekDay": 1,
+    "09-05-2023": {
+      "courseDate": "09-05-2023",
+      "courseWeek": 15,
+      "weekDay": 2,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2023-05-02T02:00:00.000Z",
-      "courseDay": 53,
+      "meetingDateTimeUTC": "2023-05-09T02:00:00.000Z",
+      "courseDay": 57,
       "dateTypes": {
         "module": "Module 4: Capstone",
         "general": {
@@ -4180,13 +4458,13 @@
         }
       }
     },
-    "03-05-2023": {
-      "courseDate": "03-05-2023",
-      "courseWeek": 14,
-      "weekDay": 2,
+    "10-05-2023": {
+      "courseDate": "10-05-2023",
+      "courseWeek": 15,
+      "weekDay": 3,
       "dayNumber": 3,
-      "meetingDateTimeUTC": "2023-05-03T02:00:00.000Z",
-      "courseDay": 54,
+      "meetingDateTimeUTC": "2023-05-10T02:00:00.000Z",
+      "courseDay": 58,
       "dateTypes": {
         "module": "Module 4: Capstone",
         "general": {
@@ -4253,13 +4531,13 @@
         }
       }
     },
-    "04-05-2023": {
-      "courseDate": "04-05-2023",
-      "courseWeek": 14,
-      "weekDay": 3,
+    "11-05-2023": {
+      "courseDate": "11-05-2023",
+      "courseWeek": 15,
+      "weekDay": 4,
       "dayNumber": 4,
-      "meetingDateTimeUTC": "2023-05-04T02:00:00.000Z",
-      "courseDay": 55,
+      "meetingDateTimeUTC": "2023-05-11T02:00:00.000Z",
+      "courseDay": 59,
       "dateTypes": {
         "module": "Module 4: Capstone",
         "general": {
@@ -4333,13 +4611,13 @@
         }
       }
     },
-    "08-05-2023": {
-      "courseDate": "08-05-2023",
-      "courseWeek": 15,
+    "15-05-2023": {
+      "courseDate": "15-05-2023",
+      "courseWeek": 16,
       "weekDay": 1,
       "dayNumber": 1,
-      "meetingDateTimeUTC": "2023-05-08T02:00:00.000Z",
-      "courseDay": 56,
+      "meetingDateTimeUTC": "2023-05-15T02:00:00.000Z",
+      "courseDay": 60,
       "dateTypes": {
         "module": "Module 4: Capstone",
         "general": {
@@ -4420,270 +4698,6 @@
         }
       }
     },
-    "09-05-2023": {
-      "courseDate": "09-05-2023",
-      "courseWeek": 15,
-      "weekDay": 2,
-      "dayNumber": 2,
-      "meetingDateTimeUTC": "2023-05-09T02:00:00.000Z",
-      "courseDay": 57,
-      "dateTypes": {
-        "module": "Module 4: Capstone",
-        "general": {
-          "type": "general",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "css": {
-          "type": "css",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "algos": {
-          "type": "algos",
-          "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "A.1.8: Heaps - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.8-heaps#part-2"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "A.1.8: Heaps - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.8-heaps#part-2"
-              }
-            ]
-          }
-        },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
-        "ip": {
-          "type": "ip",
-          "ipDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "projects": {
-          "type": "projects",
-          "projectStart": {},
-          "projectDue": {},
-          "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 4 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 4 Implementation",
-                "url": "https://bootcamp.rocketacademy.co/4-capstone/4.p-capstone"
-              }
-            ]
-          }
-        }
-      }
-    },
-    "10-05-2023": {
-      "courseDate": "10-05-2023",
-      "courseWeek": 15,
-      "weekDay": 3,
-      "dayNumber": 3,
-      "meetingDateTimeUTC": "2023-05-10T02:00:00.000Z",
-      "courseDay": 58,
-      "dateTypes": {
-        "module": "Module 4: Capstone",
-        "general": {
-          "type": "general",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "css": {
-          "type": "css",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "algos": {
-          "type": "algos",
-          "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "A.1.8: Heaps - Part 3",
-                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.8-heaps#part-3"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "A.1.8: Heaps - Part 3",
-                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.8-heaps#part-3"
-              }
-            ]
-          }
-        },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
-        "ip": {
-          "type": "ip",
-          "ipDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "projects": {
-          "type": "projects",
-          "projectStart": {},
-          "projectDue": {},
-          "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 4 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 4 Implementation",
-                "url": "https://bootcamp.rocketacademy.co/4-capstone/4.p-capstone"
-              }
-            ]
-          }
-        }
-      }
-    },
-    "11-05-2023": {
-      "courseDate": "11-05-2023",
-      "courseWeek": 15,
-      "weekDay": 4,
-      "dayNumber": 4,
-      "meetingDateTimeUTC": "2023-05-11T02:00:00.000Z",
-      "courseDay": 59,
-      "dateTypes": {
-        "module": "Module 4: Capstone",
-        "general": {
-          "type": "general",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "css": {
-          "type": "css",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "algos": {
-          "type": "algos",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
-        "ip": {
-          "type": "ip",
-          "ipDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "projects": {
-          "type": "projects",
-          "projectStart": {},
-          "projectDue": {},
-          "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 4 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 4 Implementation",
-                "url": "https://bootcamp.rocketacademy.co/4-capstone/4.p-capstone"
-              }
-            ]
-          }
-        }
-      }
-    },
-    "15-05-2023": {
-      "courseDate": "15-05-2023",
-      "courseWeek": 16,
-      "weekDay": 1,
-      "dayNumber": 1,
-      "meetingDateTimeUTC": "2023-05-15T02:00:00.000Z",
-      "courseDay": 60,
-      "dateTypes": {
-        "module": "Module 4: Capstone",
-        "general": {
-          "type": "general",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "css": {
-          "type": "css",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "algos": {
-          "type": "algos",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
-        "ip": {
-          "type": "ip",
-          "ipDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "projects": {
-          "type": "projects",
-          "projectStart": {},
-          "projectDue": {},
-          "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 4 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 4 Implementation",
-                "url": "https://bootcamp.rocketacademy.co/4-capstone/4.p-capstone"
-              }
-            ]
-          }
-        }
-      }
-    },
     "16-05-2023": {
       "courseDate": "16-05-2023",
       "courseWeek": 16,
@@ -4708,8 +4722,22 @@
         "algos": {
           "type": "algos",
           "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "A.1.8: Heaps - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.8-heaps#part-2"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "A.1.8: Heaps - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.8-heaps#part-2"
+              }
+            ]
+          }
         },
         "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
@@ -4767,8 +4795,22 @@
         "algos": {
           "type": "algos",
           "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "A.1.8: Heaps - Part 3",
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.8-heaps#part-3"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "A.1.8: Heaps - Part 3",
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.8-heaps#part-3"
+              }
+            ]
+          }
         },
         "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
@@ -4781,14 +4823,7 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {
-            "items": [
-              {
-                "name": "Project 4 Feature Freeze",
-                "url": "https://bootcamp.rocketacademy.co/4-capstone/4.p-capstone"
-              }
-            ]
-          },
+          "projectDue": {},
           "preClass": {},
           "inClass": {
             "items": [

@@ -4,7 +4,7 @@ import { DateTime } from "luxon";
 // Generate course day header for normal course day
 function NormalCourseDay({ todaySectionHeader, day, timeZoneSet }) {
   console.log("dsy and time", day, timeOffset);
-  localDate = DateTime.fromISO(day.meetingDateTimeUTC, { zone: timeZoneSet });
+  localDate = DateTime.fromISO(day.meetingDateTimeUtc, { zone: timeZoneSet });
   formattedDate = localDate.toFormat("EEE d MMM");
   meetingTime = localDate.toFormat("t");
   timeOffset = localDate.toFormat("ZZZZ");
@@ -36,7 +36,7 @@ function NormalCourseDay({ todaySectionHeader, day, timeZoneSet }) {
 
 // helper function that generates courseday header for a holiday
 function HolidayCourseDay({ day, timeZoneSet }) {
-  localDate = DateTime.fromFormat(day.courseDate, "dd-MM-yyyy");
+  localDate = DateTime.fromFormat(day.courseDate, "yyyy-MM-dd");
   formattedDate = localDate.toFormat("EEE d MMM");
   timeZone = localDate.toFormat("z");
   // depending on if the holiday is a public/school holiday,
@@ -74,7 +74,7 @@ function GenerateCourseDayHeader({ todaySectionHeader, day }) {
   // this is the timezone of the area we are in
   const timeZoneSet = "Asia/Singapore";
 
-  if (day.meetingDateTimeUTC) {
+  if (day.meetingDateTimeUtc) {
     return (
       <NormalCourseDay
         todaySectionHeader={todaySectionHeader}

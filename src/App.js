@@ -1,7 +1,7 @@
 import React from "react";
 import { HashRouter, Switch, Route } from "react-router-dom";
 
-import ftbc9 from "./data/17-10-2022_23-02-2023_FTBC9.json";
+import ftbc9 from "./data/2022-10-17_2023-02-23_FTBC9.json";
 // import ftbc10 from "./data/30-01-2023_22-05-2023_FTBC10.json";
 
 import ptbc5 from "./data/30-08-2022_29-04-2023_PTBC5.json";

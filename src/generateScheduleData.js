@@ -61,7 +61,6 @@ const generateScheduleFileName = (
 
 // Generate schedule record for holiday
 const generateHolidayObject = (currDateStr, courseWeek, date) => ({
-  courseDayIndex: null,
   courseDate: currDateStr,
   courseWeek: schoolHolidayArray.includes(currDateStr) ? null : courseWeek,
   dayNumber: date.weekday,
@@ -124,6 +123,7 @@ const generateScheduleData = (startDateStr, batchNum, courseType) => {
   let dayOfWeekIndex = finalScheduleData.courseStartDaysOfWeekIndex;
   let currDate = DateTime.fromFormat(startDateStr, "yyyy-MM-dd");
   let courseWeek = 1;
+  let existsHolidayOnCourseDayInCurrWeek = false;
 
   // Create schedule records for every course day and holiday for specific batch
   while (courseDayIndex < finalScheduleData.totalCourseDays) {
@@ -149,6 +149,7 @@ const generateScheduleData = (startDateStr, batchNum, courseType) => {
         courseWeek,
         currDate
       );
+      existsHolidayOnCourseDayInCurrWeek = true;
     }
     // Else add course day to schedule
     else {
@@ -166,13 +167,25 @@ const generateScheduleData = (startDateStr, batchNum, courseType) => {
 
     // If reached end of week, return to beginning of day of week array
     if (dayOfWeekIndex === finalScheduleData.daysOfWeek.length - 1) {
-      dayOfWeekIndex = 0;
-      if (!schoolHolidayArray.includes(currDateStr)) {
-        courseWeek += 1;
+      // If there was a holiday on a course day in an FTBC course in current week, use Friday as make-up
+      if (
+        courseType === "FTBC" &&
+        existsHolidayOnCourseDayInCurrWeek &&
+        currDate.weekday < 5
+      ) {
+        currDate = currDate.set({ weekday: 5 });
       }
-      currDate = currDate
-        .plus({ weeks: 1 })
-        .set({ weekday: finalScheduleData.daysOfWeek[dayOfWeekIndex] });
+      // Proceed to next week
+      else {
+        dayOfWeekIndex = 0;
+        if (!schoolHolidayArray.includes(currDateStr)) {
+          courseWeek += 1;
+        }
+        existsHolidayOnCourseDayInCurrWeek = false;
+        currDate = currDate
+          .plus({ weeks: 1 })
+          .set({ weekday: finalScheduleData.daysOfWeek[dayOfWeekIndex] });
+      }
     }
     // Else move currDate to next course day within same week
     else {

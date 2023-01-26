@@ -10,7 +10,7 @@ To edit/generate a batch schedule, e.g. FTBC6:
 
 1. Clone scheduler repo locally
 2. Edit the FTBC3.x or PTBC3.x template JSON file (in `src/data/schedule-templates`) to how we want it to be. If you are making changes that should apply to new batches but not older ones, duplicate the latest template and increment the version number.
-3. If you are generating a new PT course ensure the the course starts on the correct day. `courseStartDaysOfWeekIndex` must refer to the correct start day. 0 is Tuesday, 1 is Saturday. `ptbc3.0-schedule-template.json`: ` "courseStartDaysOfWeekIndex": 0,`
+3. If you are generating a new PT course ensure the the course starts on the correct day. `courseStartDaysOfWeekIndex` at the top of the schedule template file (e.g. `ptbc3.0-schedule-template.json`) must refer to the correct start day. `0` is Tuesday, `1` is Saturday.
 4. Check holidays.json to ensure holidays (public and company) that would occur during your course are included, such that the scheduler does not schedule course days on these dates.
 5. `npm start` to run scheduler locally
 6. Navigate to `localhost:3000/#/admin`, enter Start Date (e.g. 10 Jan ’22), Batch Number (e.g. 6) and Course Type (e.g. FTBC), and click Download Schedule.

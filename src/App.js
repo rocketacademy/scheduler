@@ -6,8 +6,8 @@ import ftbc10 from "./data/FTBC10_2023-01-30_2023-05-18.json"; // FTBC3.1
 // import ftbc11 from "./data/FTBC11_2023-03-20_2023-07-06.json"; // FTBC3.1
 // import ftbc12 from "./data/FTBC12_2023-05-08_2023-08-24.json"; // FTBC3.1
 
-import ptbc5 from "./data/PTBC5_2022-08-30_2023-05-02.json"; // PTBC3.0
-import ptbc6 from "./data/PTBC6_2022-11-26_2023-07-29.json"; // PTBC3.0
+import ptbc5 from "./data/PTBC5_2022-08-30_2023-04-29.json"; // PTBC3.0, courseStartDaysOfWeekIndex 0 (Tue)
+import ptbc6 from "./data/PTBC6_2022-11-26_2023-07-29.json"; // PTBC3.0, courseStartDaysOfWeekIndex 1 (Sat)
 // import ptbc7 from "./data/PTBC7_2023-03-18_2023-10-31.json"; // PTBC3.1
 // import ptbc8 from "./data/PTBC8_2023-06-17_2024-01-23.json"; // PTBC3.1
 

@@ -3,7 +3,7 @@ import { HashRouter, Switch, Route } from "react-router-dom";
 
 import ftbc9 from "./data/FTBC9_2022-10-17_2023-02-23.json"; // FTBC3.0
 import ftbc10 from "./data/FTBC10_2023-01-30_2023-05-18.json"; // FTBC3.1
-// import ftbc11 from "./data/FTBC11_2023-03-20_2023-07-06.json"; // FTBC3.1
+import ftbc11 from "./data/FTBC11_2023-03-20_2023-07-06.json"; // FTBC3.1
 // import ftbc12 from "./data/FTBC12_2023-05-08_2023-08-24.json"; // FTBC3.1
 
 import ptbc5 from "./data/PTBC5_2022-08-30_2023-04-29.json"; // PTBC3.0, courseStartDaysOfWeekIndex 0 (Tue)
@@ -18,7 +18,7 @@ function App() {
   const batchArray = [
     { name: "ftbc9", content: ftbc9 },
     { name: "ftbc10", content: ftbc10 },
-    // { name: "ftbc11", content: ftbc11 },
+    { name: "ftbc11", content: ftbc11 },
     // { name: "ftbc12", content: ftbc12 },
 
     { name: "ptbc5", content: ptbc5 },

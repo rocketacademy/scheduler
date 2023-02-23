@@ -5,8 +5,14 @@ import Navbar from "react-bootstrap/Navbar";
 import logo from "../../assets/4-MILK.png";
 import BatchSchedule from "./BatchSchedule";
 
+import Dropdown from "react-bootstrap/Dropdown";
+import DropdownButton from "react-bootstrap/DropdownButton";
+
 function ScheduleContainer({ batchArray }) {
   // pass individual batch json files into BatchSchedule to generate schedules
+  console.log("batch array", batchArray);
+  console.log("current path", window.location.href);
+
   return (
     <>
       <Navbar variant="dark" bg="secondary">
@@ -14,11 +20,15 @@ function ScheduleContainer({ batchArray }) {
           <img src={logo} alt="company logo" />
         </Navbar.Brand>
         <Nav className="me-auto">
-          {batchArray.map((batch) => (
-            <Nav.Link as={Link} to={`/${batch.name}`}>
-              {batch.name.toUpperCase()}
-            </Nav.Link>
-          ))}
+          <DropdownButton menuVariant="dark" title={"Choose your batch"}>
+            {batchArray.map((batch) => (
+              <Dropdown.Item key={`batch`}>
+                <Nav.Link as={Link} to={`/${batch.name}`}>
+                  {batch.name.toUpperCase()}
+                </Nav.Link>
+              </Dropdown.Item>
+            ))}
+          </DropdownButton>
         </Nav>
       </Navbar>
       <Switch>

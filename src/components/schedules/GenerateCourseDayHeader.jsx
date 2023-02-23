@@ -3,7 +3,7 @@ import { DateTime } from "luxon";
 
 // Generate course day header for normal course day
 function NormalCourseDay({ todaySectionHeader, day, timeZoneSet }) {
-  console.log("dsy and time", day, timeOffset);
+  // console.log("day and time", day, timeOffset);
   localDate = DateTime.fromISO(day.meetingDateTimeUtc, { zone: timeZoneSet });
   formattedDate = localDate.toFormat("EEE d MMM");
   meetingTime = localDate.toFormat("t");
@@ -70,7 +70,7 @@ let holiday;
 
 // function that generates the header for each course day
 function GenerateCourseDayHeader({ todaySectionHeader, day }) {
-  console.log("one more time", todaySectionHeader, day);
+  // console.log("one more time", todaySectionHeader, day);
   // this is the timezone of the area we are in
   const timeZoneSet = "Asia/Singapore";
 

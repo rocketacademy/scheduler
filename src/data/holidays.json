@@ -120,6 +120,42 @@
       "location": "SG",
       "name": "National Day"
     },
+    "2023-05-26": {
+      "holidayType": "public holiday",
+      "date": "2023-05-26",
+      "location": "HK",
+      "name": "Buddha's Birthday"
+    },
+    "2023-06-22": {
+      "holidayType": "public holiday",
+      "date": "2023-06-22",
+      "location": "HK",
+      "name": "Dragon Boat Festival"
+    },
+    "2023-07-01": {
+      "holidayType": "public holiday",
+      "date": "2023-07-01",
+      "location": "HK",
+      "name": "Hong Kong National Day"
+    },
+    "2023-09-30": {
+      "holidayType": "public holiday",
+      "date": "2023-09-30",
+      "location": "HK",
+      "name": "Day After Chinese Mid-Autumn Festival"
+    },
+    "2023-10-02": {
+      "holidayType": "public holiday",
+      "date": "2023-10-02",
+      "location": "HK",
+      "name": "China National Day"
+    },
+    "2023-10-23": {
+      "holidayType": "public holiday",
+      "date": "2023-10-23",
+      "location": "HK",
+      "name": "Chung Yeung Festival"
+    },
     "2023-11-13": {
       "holidayType": "public holiday",
       "date": "2023-11-13",

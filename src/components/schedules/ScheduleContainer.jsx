@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Route, Switch, Link, Redirect } from "react-router-dom";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -13,6 +13,8 @@ function ScheduleContainer({ batchArray }) {
   console.log("batch array", batchArray);
   console.log("current path", window.location.href);
 
+  const [navBarBatch, setNavBarBatch] = useState("Choose your batch");
+
   return (
     <>
       <Navbar variant="dark" bg="secondary">
@@ -20,10 +22,15 @@ function ScheduleContainer({ batchArray }) {
           <img src={logo} alt="company logo" />
         </Navbar.Brand>
         <Nav className="me-auto">
-          <DropdownButton menuVariant="dark" title={"Choose your batch"}>
+          {/* added dropdown button and drop down item.  */}
+          <DropdownButton menuVariant="dark" title={navBarBatch}>
             {batchArray.map((batch) => (
               <Dropdown.Item key={`batch`}>
-                <Nav.Link as={Link} to={`/${batch.name}`}>
+                <Nav.Link
+                  as={Link}
+                  to={`/${batch.name}`}
+                  onClick={() => setNavBarBatch(batch.name.toUpperCase())}
+                >
                   {batch.name.toUpperCase()}
                 </Nav.Link>
               </Dropdown.Item>

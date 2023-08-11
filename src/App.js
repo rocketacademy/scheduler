@@ -9,7 +9,7 @@ import ptbc6 from "./data/PTBC6_2022-11-26_2023-07-29.json"; // PTBC3.0, courseS
 import ptbc7 from "./data/PTBC7_2023-03-18_2023-10-31.json"; // PTBC3.1, courseStartDaysOfWeekIndex 1 (Sat)
 import ptbc8 from "./data/PTBC8_2023-06-24_2024-02-27.json"; // FTBC3.1 - Hk public holidays
 
-// import ptbc9 from "./data/PTBC9_2023-09-23_2024-05-28.json"; // FTBC3.1 - Hk public holidays
+import ptbc9 from "./data/PTBC9_2023-09-23_2024-05-28.json"; // FTBC3.1 - Hk public holidays
 
 import ScheduleContainer from "./components/schedules/ScheduleContainer";
 import BatchScheduleGenerator from "./components/BatchScheduleGenerator";
@@ -23,7 +23,7 @@ function App() {
     { name: "ptbc6", content: ptbc6 },
     { name: "ptbc7", content: ptbc7 },
     { name: "ptbc8", content: ptbc8 },
-    // { name: "ptbc9", content: ptbc9 },
+    { name: "ptbc9", content: ptbc9 },
   ];
 
   return (

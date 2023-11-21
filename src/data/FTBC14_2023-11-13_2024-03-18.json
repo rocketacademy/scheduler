@@ -1198,6 +1198,10 @@
               {
                 "name": "2.2.1: AJAX",
                 "url": "https://bc.rocketacademy.co/2-full-stack/2.2-advanced-react/2.2.1-ajax"
+              },
+              {
+                "name": "2.E.1: Weather App - Create Open Weather Account",
+                "url": "https://bc.rocketacademy.co/2-full-stack/2.e-exercises/2.e.1-weather-app"
               }
             ]
           },

@@ -27,8 +27,10 @@ const generatingDataArrays = (
         // itemUrlArray[3] is used as the heading of each module section
         // we're filtering out everythign that does not come from the gitbook
         if (
-          !moduleNameArray.includes(itemUrlArray[3]) &&
-          itemUrlArray[2] === "bootcamp.rocketacademy.co"
+          (!moduleNameArray.includes(itemUrlArray[3]) &&
+            itemUrlArray[2] === "bc.rocketacademy.co") ||
+          (!moduleNameArray.includes(itemUrlArray[3]) &&
+            itemUrlArray[2] === "bootcamp.rocketacademy.co")
         ) {
           moduleNameArray.push(itemUrlArray[3]);
         }
@@ -114,6 +116,7 @@ function Modules({ scheduleData, coursetype }) {
       {moduleNameArray.length > 0 && <h4>Modules</h4>}
       <Nav className="flex-column">
         {moduleNameArray.map((moduleName) => {
+          // console.log(moduleName);
           // creating array to store items of each section
           const general = [];
           const poce = [];
@@ -139,6 +142,7 @@ function Modules({ scheduleData, coursetype }) {
                 {sectionArray.map((section, index) => {
                   return (
                     <ModuleSection
+                      key={index}
                       section={section}
                       index={index}
                       sectionNames={sectionNames}

@@ -4,20 +4,9 @@ on:
   push:
     branches:
       - "main"
-
-permissions: read-all
-
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions:
-      packages: write
-      deployments: write
-      contents: read
-      actions: read
-      pull-requests: write
-      issues: write
-      repository-projects: write
 
     strategy:
       matrix:

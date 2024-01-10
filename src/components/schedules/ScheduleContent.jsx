@@ -26,7 +26,7 @@ function ScheduleContent({
     nextToday = today.plus({ months: 1 });
   }
 
-  console.log("scheduleData", scheduleData);
+  // console.log("scheduleData", scheduleData);
 
   return (
     <div className="content">

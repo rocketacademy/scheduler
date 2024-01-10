@@ -10,8 +10,8 @@ import DropdownButton from "react-bootstrap/DropdownButton";
 
 function ScheduleContainer({ batchArray }) {
   // pass individual batch json files into BatchSchedule to generate schedules
-  console.log("batch array", batchArray);
-  console.log("current path", window.location.href);
+  // console.log("batch array", batchArray);
+  // console.log("current path", window.location.href);
 
   const [navBarBatch, setNavBarBatch] = useState("Choose your batch");
 

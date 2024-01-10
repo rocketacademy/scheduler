@@ -4675,7 +4675,18 @@
         "module": "Module 4: Capstone",
         "general": {
           "type": "general",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "4.5: ChatGPT for SWE",
+                "url": "https://bc.rocketacademy.co/4-capstone/4.5-chatgpt-for-swe"
+              },
+              {
+                "name": "4.6: Soft Skills for SWE",
+                "url": "https://bc.rocketacademy.co/4-capstone/4.6-soft-skills-for-swe"
+              }
+            ]
+          },
           "inClass": {},
           "postClass": {}
         },

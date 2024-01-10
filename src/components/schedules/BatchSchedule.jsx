@@ -4,9 +4,9 @@ import SideBar from "./sidebar/SideBar";
 import { DateTime } from "luxon";
 
 function BatchSchedule({ data, title }) {
-  console.log(data, title);
+  // console.log(data, title);
   const scheduleData = JSON.parse(JSON.stringify(data.days));
-  console.log(scheduleData);
+  // console.log(scheduleData);
 
   // needed to generate id for use with react-scroll library, also indicates if course is full time/ part time
   let coursetype;
@@ -35,8 +35,8 @@ function BatchSchedule({ data, title }) {
   if (today < firstDayOfCourse) {
     today = firstDayOfCourse;
   }
-  console.log(courseDatesArray);
-  console.log(firstDayOfCourse);
+  // console.log(courseDatesArray);
+  // console.log(firstDayOfCourse);
 
   return (
     <div className="course-schedule">

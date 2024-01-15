@@ -3,10 +3,13 @@ import { HashRouter, Switch, Route } from "react-router-dom";
 
 import ftbc14 from "./data/FTBC14_2023-11-13_2024-03-18.json"; // FTBC3.2 - Hk public holidays
 import ftbc15 from "./data/FTBC15_2024-02-26_2024-06-18.json"; // FTBC3.2 - Hk public holidays
+import ftbc16 from "./data/FTBC16_2024-06-24_2024-10-10.json"; // FTBC3.2 - HK Public holidays
 
 import ptbc8 from "./data/PTBC8_2023-06-24_2024-02-27.json"; // FTBC3.1 - Hk public holidays
 import ptbc9 from "./data/PTBC9_2023-09-23_2024-05-28.json"; // FTBC3.1 - Hk public holidays
-import ptbc10 from "./data/PTBC10_2024-01-16_2024-09-03.json"; // FTBC3.2 - Hk public holidays
+import ptbc10 from "./data/PTBC10_2024-01-16_2024-08-27.json"; // FTBC3.2 - DG public holidays
+// import ptbc10 from "./data/PTBC10_2024-01-16_2024-09-03.json"; // FTBC3.2 - Hk public holidays
+import ptbc11 from "./data/PTBC11_2024-04-20_2024-11-26.json"; // FTBC3.2 - HK Public holidays
 
 import ScheduleContainer from "./components/schedules/ScheduleContainer";
 import BatchScheduleGenerator from "./components/BatchScheduleGenerator";
@@ -15,10 +18,12 @@ function App() {
   const batchArray = [
     { name: "ftbc14", content: ftbc14 },
     { name: "ftbc15", content: ftbc15 },
+    { name: "ftbc16", content: ftbc16 },
 
     { name: "ptbc8", content: ptbc8 },
     { name: "ptbc9", content: ptbc9 },
     { name: "ptbc10", content: ptbc10 },
+    { name: "ptbc11", content: ptbc11 },
   ];
 
   return (
